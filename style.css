@@ -1,0 +1,324 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: lightgray;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container{
+    width: 350px;
+    height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border: 3px solid black;
+    
+}
+
+h1{
+    position: absolute;
+    margin-top: 300px;
+}
+
+/* luffy */
+
+#luffy{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 210px;
+    background-color: black;
+}
+
+#luffy img{
+    width: 150px;
+    height: auto;
+    
+}
+
+
+
+
+/* gambia */
+
+#red{
+    width: 300px;
+    height: 70px;
+    background-color: #CE1126;
+
+}
+#whith1{
+    width: 300px;
+    height: 10px;
+    background-color: #FFFFFF;
+
+}
+#blue{
+    width: 300px;
+    height: 50px;
+    background-color: #0C1C8C;
+
+}
+#whith2{
+    width: 300px;
+    height: 10px;
+    background-color: #FFFFFF;
+
+}
+#green{
+    width: 300px;
+    height: 70px;
+    background-color: #3A7728;
+
+}
+
+/* mauritania */
+
+#red3{
+    height: 35px;
+    width: 300px;
+    background-color: #D01C1F;
+}
+
+#green2{
+    height: 140px;
+    width: 300px;
+    background-color: #00A95C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#green2 img{
+    height: auto;
+    width: 150px;
+}
+
+/* nicaragua */
+
+#blue1{
+    width: 300px;
+    height: 70px;
+    background-color: #0067c6;
+
+}
+#whith{
+    width: 300px;
+    height: 70px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#whith img{
+    width: auto;
+    height: 70px;
+}
+
+
+
+
+
+/* monaco */
+   
+#red1{
+    width: 300px;
+    height: 105px;
+    background-color: #CE1126;
+
+}
+#white{
+    width: 300px;
+    height: 105px;
+    background-color: #FFFFFF;
+
+}
+
+
+/* Benin */
+
+
+#benin{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#green3{
+    width: 100px;
+    height: 210px;
+    background-color: #008751;
+}
+#second{
+    flex-direction: column;
+    justify-content: center;
+}
+#yellow{
+    width: 200px;
+    height: 105px;
+    background-color: #FCD116;
+
+}
+#red2{
+    width: 200px;
+    height: 105px;
+    background-color: #E8112D;
+
+}
+
+
+
+/* mexico */
+
+
+#mexico{
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#green4{
+    width: 100px;
+    height: 210px;
+    background-color: #006341;
+
+}
+#white2{
+    width: 100px;
+    height: 210px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#white2 img{
+
+    width: 90px;
+    height: auto;
+
+}
+#red5{
+    width: 100px;
+    height: 210px;
+    background-color: #C8102E;
+
+}
+
+
+/* france */
+
+
+#france{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#blueb{
+    width: 100px;
+    height: 210px;
+    background-color: darkblue;
+
+}
+#white9{
+    width: 100px;
+    height: 210px;
+    background-color: #FFFFFF;
+}
+#red6{
+    width: 100px;
+    height: 210px;
+    background-color: #ED2939;
+}
+
+
+/* iceland */
+
+
+#iceland{
+    width: 300px;
+    height: 210px;
+    background-color: #02529C; 
+}
+#a1{
+    margin-left: 70px;
+    margin-right: 190px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#w1{
+    width: 10px;
+    height: 70px;
+    background-color: #FFFFFF;
+}
+#r1{
+    width: 20px;
+    height: 70px;
+    background-color: #DC1E35;
+}
+#w2{
+    width: 10px;
+    height: 70px;
+    background-color: #FFFFFF;
+}
+#a2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#w3{
+    width: 80px;
+    height: 10px;
+    background-color: #FFFFFF;
+
+}
+#r2{
+    width: 20px;
+    height: 10px;
+    background-color: #DC1E35;
+
+}
+#w4{
+    width: 200px;
+    height: 10px;
+    background-color: #FFFFFF;
+}
+#r3{
+    width: 300px;
+    height: 20px;
+    background-color: #DC1E35;
+}
+#a1{
+    margin-left: 70px;
+    margin-right: 190px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#w5{
+    width: 10px;
+    height: 100px;
+    background-color: #FFFFFF;
+}
+#r4{
+    width: 20px;
+    height: 100px;
+    background-color: #DC1E35;
+}
+#w6{
+    width: 10px;
+    height: 100px;
+    background-color: #FFFFFF;
+}
